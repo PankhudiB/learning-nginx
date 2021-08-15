@@ -16,3 +16,6 @@ Nginx as Web Server
 
     serve content under location block
     location block is used to decide how to process the request URI 
+
+    Return error for a regex -> location ~ (tilda)
+    
