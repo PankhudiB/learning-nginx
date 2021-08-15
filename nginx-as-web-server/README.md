@@ -18,4 +18,7 @@ Nginx as Web Server
     location block is used to decide how to process the request URI 
 
     Return error for a regex -> location ~ (tilda)
+
+    proxy_pass
+    Handing off a request from server runnning on port 8888 to antoher server that can communicate using http.
     
