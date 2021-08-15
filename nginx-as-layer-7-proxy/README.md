@@ -8,3 +8,5 @@ Nginx as Layer 7 Proxy
     ip_hash :
     hash the client ip to a particular web server
     this is useful for stateful application [sticky-state]
+    
+    to enable https on nginx u need to add certificate 

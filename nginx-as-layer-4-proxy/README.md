@@ -18,7 +18,9 @@ Nginx as Layer 4 Proxy
     Any future request from this client now will always go to the same backend 2222
     bcoz its 1 tcp connection. u r not going to establish connection again. 
     u r using the same connection that was established earlier. and sending content over it.
-
+    
+    Now instead of browser if u do the same request using telnet -> u ll get the round robin 
+        -> becoz telnet works at layer 4
 
     
 
