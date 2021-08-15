@@ -10,3 +10,9 @@ Nginx as Web Server
     To start the nginx server : type the command -> nginx
     
     nginx -s stop ---> stops the nginx server
+
+    To serve something other than root path
+    use location block
+
+    serve content under location block
+    location block is used to decide how to process the request URI 
